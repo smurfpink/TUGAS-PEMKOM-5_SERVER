@@ -1,0 +1,24 @@
+Program remidial
+  sub alamat
+  writeln("alamat : brebes")
+ end sub
+ 
+ sub nama
+  writeln("nama : Dinda liesty syavira")
+  call alamat
+ end sub
+ 
+ sub NIM
+  writeln("NIM : 23090027")
+  call nama
+ end sub
+ 
+ sub kelas
+  writeln("kelas : 1C")
+  call NIM
+ end sub
+ 
+ call kelas
+end
+ 
+
